@@ -4,6 +4,14 @@ Jasonette extension for integrating [segment.io](https://www.segment.io)
 
 See the iOS version [here](https://github.com/gliechtenstein/JasonSEGAnalyticsAction)
 
+# Setup
+
+1. Install the extension using Jason Extension Manager
+2. Get an API key from [segment.io](https://www.segment.io)
+3. From your Android studio project, open `strings.xml`. Add a new property called `segment`, and add your API key there. Here's an example:
+
+    <string name="segment">genNIKQFiHP59px7DBtvypDCp0l7cVBA</string>
+
 # Usage
 
 ## 1. Identifying Users
